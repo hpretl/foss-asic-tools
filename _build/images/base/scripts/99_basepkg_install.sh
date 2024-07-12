@@ -9,6 +9,20 @@ pip3 install --upgrade --no-cache-dir \
 	jupyter-collaboration \
 	jupyterlab-night
 
+# additional requirements for BAG2
+pip3 install --upgrade --no-cache-dir \
+  forallpeople \
+  GitPython \
+  h5py \
+  IPython \
+  jinja2 \
+  klayout \
+  openmdao \
+  rtree \
+  python-gitlab \
+  sphinx_rtd_theme \
+  zmq
+
 #FIXME Locally build OpenLane2 due to klayout incompatibility
 #FIXME Need to add OL2 first, otherwise dependency issue on antlr4-python3-runtime
 #cd /tmp

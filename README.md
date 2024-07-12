@@ -79,6 +79,7 @@ More options for selecting digital standard cell libraries are available; please
 Below is a list of the current tools already installed and ready to use (note there are some adaptions in our container vs. efabless.com):
 
 * [amaranth](https://github.com/amaranth-lang/amaranth) a Python-based HDL toolchain
+* [bag2](https://gitlab.com/mosaic_group/mosaic_BAG/opensource_db_template) Python-based analog layout generation and schematic transformation
 * [cace](https://github.com/efabless/cace) a Python-based circuit automatic characterization engine
 * [cocotb](https://github.com/cocotb/cocotb) simulation library for writing VHDL and Verilog test benches in Python
 * [covered](https://github.com/hpretl/verilog-covered) Verilog code coverage
