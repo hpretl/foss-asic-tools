@@ -9,4 +9,4 @@ git checkout "${FAULT_REPO_COMMIT}"
 git submodule update --init --recursive
 echo "[INFO] Compiling Fault using Swift."
 export PATH=/tmp/swift/usr/bin:$PATH
-INSTALL_DIR=${TOOLS}/${FAULT_NAME} swift build -c release -static-stdlib
+INSTALL_DIR=${TOOLS}/${FAULT_NAME} swift build -c release --static-swift-stdlib
